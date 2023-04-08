@@ -1,5 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
+
 const initialState = {
     objectId: 10245,
     apiData: {}
@@ -40,3 +41,8 @@ export const fetchData = () => {
 }
 
 export default dataSlice.reducer
+
+
+
+
+
